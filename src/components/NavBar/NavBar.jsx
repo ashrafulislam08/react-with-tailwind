@@ -25,7 +25,7 @@ const NavBar = () => {
       <ul
         className={`${
           open ? "block" : "hidden -top-60"
-        } md:flex absolute md:static bg-yellow-200 text-black w-full md:w-auto text-center md:text-left p-5 mt-6 md:m-0 duration-150 `}
+        } md:flex absolute md:static bg-yellow-200 text-black w-full md:w-auto text-center md:text-left md:p-1 p-5 mt-6 md:m-0 duration-150 `}
       >
         {routes.map((route) => (
           <Link key={route.id} route={route} />
